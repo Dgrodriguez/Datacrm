@@ -1,0 +1,38 @@
+    #loadingImg {
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.17) !important;
+        position: fixed;
+        z-index: 100000;
+        cursor: not-allowed;
+    }
+    .loadingImg {
+        position: fixed;
+        z-index: 100000;
+        background: url(../Img/cargando.gif) transparent;
+        height: 120px;
+        width: 120px;
+        background-repeat: no-repeat;
+        left: 50%;
+        background-size: contain;
+        top: 50%;
+        cursor: not-allowed;
+    }
+    button {
+        font-size: 22px;
+        border: none;
+        background-color: transparent;
+        color: rgb(49, 140, 231);
+        position: relative;
+        cursor: pointer;
+    }
+
+    table{
+        margin-top: 20%;
+    }
+
+    table td,table th {
+        text-align: center;
+        padding: 0 !important;
+        vertical-align: middle !important;
+    }
